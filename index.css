@@ -1,0 +1,60 @@
+*{
+    margin: 0; padding: 0;
+}
+nav a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 55px;
+}
+header{
+    height: 30px;
+    background-color: aquamarine;
+}
+main{
+height: 500px;width: 500px;
+}
+#box1{
+    height: 100px;width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;width: 100px;
+    background-color: rgb(176, 39, 162);
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+#container{
+    border: 3px solid;
+    margin: 5px;
+    padding: 5px;
+}
+#para2{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    
+}
+.same{
+    height: 100px;width: 100px;
+    background-color: brown;
+    
+    
+    left: 269px;
+    text-align: center;
+    margin: 5px;
+}
+ #para4{
+    position: fixed;
+ }
+ footer{
+    bottom: 1px;
+    background-color: aqua;
+    position: fixed;
+ }
+ 
+ 
+ 
