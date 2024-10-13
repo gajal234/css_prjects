@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        #pro{
+            height: 100px;width: 100px;
+            background-color: darkseagreen;
+            border: 2px solid;
+            border-radius: 5px; 
+            position: relative;
+            left: 10px;
+            top: 10px;
+           /* animation-name: coding;
+            animation-duration: 10s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count:infinite ;
+            animation-direction:alternate ;*/
+            animation: coding 5s ease-in-out 1s infinite alternate;
+        }
+        @keyframes  coding {
+            0%{left: 10px;top: 0px;}
+            50%{left: 325px;top: 500px;}
+            100%{left: 650px;top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div id="pro"></div>
+</body>
+</html>

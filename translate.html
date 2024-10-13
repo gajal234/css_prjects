@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotate</title>
+    <style>
+        .box{
+            height: 100px;width: 100px;
+            border: 2px solid;
+            border-radius: 5%;
+            padding: 10px;
+            position: relative;
+            top: 100px;left: 100px;
+            transition: all 2s ease-in ;
+        }
+        #box1{
+            background-color: cornflowerblue;
+        }
+        #box1:hover{
+            transform: translatey(50px);
+        }
+        #box2{
+            background-color: darkviolet;
+        }
+        #box2:hover{
+            transform: translate(70px ,100px);
+        }
+        #box3{
+            background-color: darkslategrey;
+        }
+        #box3:hover{
+            transform: translate(100px ,50px);
+        }
+        #box4{
+            background-color: darkred;
+        } #box4:hover{
+            transform: translate(125px);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">translate</div><br><br><br>
+    <div id="box2" class="box"> translate</div><br><br><br>
+    <div id="box3" class="box">translate</div><br><br><br>
+    <div id="box4" class="box">translate</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale</title>
+    <style>
+        .box{
+            height: 100px;width: 100px;
+            border: 2px solid;
+            border-radius: 5%;
+            padding: 10px;
+            position: relative;
+            top: 100px;left: 100px;
+            transition: all 2s ease-in 1s;
+        }
+        #box1{
+            background-color: cornflowerblue;
+        }
+        #box1:hover{
+            transform:  scale(1.2);
+        }
+        #box2{
+            background-color: darkviolet;
+        }
+        #box2:hover{
+            transform: scale(1.4);
+        }
+        #box3{
+            background-color: darkslategrey;
+        }
+        #box3:hover{
+            transform:  scale(1.6);
+        }
+        #box4{
+            background-color: darkred;
+        } #box4:hover{
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box"> scale1.2</div><br><br><br>
+    <div id="box2" class="box"> scale1.4</div><br><br><br>
+    <div id="box3" class="box">scale1.6</div><br><br><br>
+    <div id="box4" class="box"> scale2</div>
+</body>
+</html>
