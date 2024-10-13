@@ -3,8 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project5</title>
-        <link rel="stylesheet" href="index.css">
+    <title>project</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        header{
+             
+            height: 30px;
+            background-color: aquamarine;
+        }
+        nav a{
+            text-decoration: none;
+        }
+        nav{
+            padding-top: 5px;
+            display: flex;
+            justify-content:space-around;
+        }
+        img{
+            height: 169px;
+        }
+        #image_container{
+            height: 400px;
+            border: 3px solid;
+            display: flex;
+             justify-content:center;
+             align-items: center;
+
+        }
+        #container{
+            height: 200px;width: 450px;
+            border: 3px solid;
+            display: flex;
+            flex-shrink: 0;
+
+        }
+        #box1{
+            background-color: crimson;
+        }
+        #box2{
+            flex-shrink: 1;
+             flex-grow: 1;
+            background-color: beige;
+            
+            
+                }
+        .box{
+            margin: 10px; padding: 5px;
+            height: 80px ;width: 80px;
+            background-color: beige;
+        }
+        #box3{
+              
+            background-color: rgb(11, 80, 19);
+        }
+        .media_box{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            border: 3px solid;
+        }
+ 
+        @media screen and(min-width:300px) and(max-width:400px)  {
+            .media_box{
+                background-color: red;
+            }
+        }
+       
+    </style>
 </head>
 <body>
     <header>
@@ -13,19 +80,21 @@
         <a href="#">link2</a>
         <a href="#">link3</a>
         <a href="#">link4</a>
-        </nav><br><br>
-    </header>
+        </nav><br>
+    </header><br>
     <main>
-        <div id="box1"></div><br>
-        <div id="container"> 
-        <div id="para1" class="box">box1</div>
-        <div id="para2" class="box">box2</div>
-        <div id="para3" class="box">box3</div></div>
-
-        <div id="para4"class="same">box4</div>
+       <div id="image_container">
+        <img src="indianmap.jpg" alt="indian map">
+       </div> 
+       <br>
+       <div id="container">
+       <div id="box1" class="box">box1</div> 
+       <div id="box2" class="box">box2</div> 
+       <div id="box3" class="box">box3</div> 
+        
+       </div><br><hr>
+       <div class="media_box">media</div>
     </main>
-    <footer>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam deleniti, quasi recusandae, sed culpa, modi officiis nihil est eligendi mollitia harum et reiciendis alias neque impedit. Explicabo voluptatum quidem facere maxime illum recusandae nulla omnis libero, tenetur impedit minus error amet deserunt dolorum quas aut pariatur. Doloremque, dolor quo. Praesentium totam cupiditate at dolor corporis dicta quae molestiae! Quia aperiam rerum dolore eaque voluptatum exercitationem vel blanditiis illo hic officiis sapiente quaerat doloremque officia nihil, non nam sed esse adipisci! Ducimus assumenda iusto saepe expedita sapiente autem, modi at. Mollitia ea, eius itaque quaerat quae temporibus molestias repudiandae provident.</p>
-    </footer>
+    <footer></footer>
 </body>
 </html>

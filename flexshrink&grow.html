@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align items & contents</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        #container{
+            height: 350px;
+            width: 700px;
+            border: 4px solid;
+            background-color: beige;
+            display: flex;
+           
+              justify-content:center;
+             
+             
+        }
+        .box{
+            height: 100px;width: 100px;
+            text-align: center;
+            border: 3px solid;
+            margin: 10px;
+             
+
+        }
+        #box1{background-color: crimson;}
+        #box2{background-color: yellowgreen;}
+        #box3{background-color: green;
+        flex-grow: 2;}
+        #box4{background-color: blue;}
+    </style>
+</head>
+<body>
+    <h1>Flex Container</h1><br>
+     <div id="container">
+        <div id="box1" class="box">item1</div>
+        <div id="box2"class="box">item2</div>
+        <div id="box3"class="box">item3</div>
+        <div id="box4"class="box">item4</div>
+        
+        
+</body>
+</html>
